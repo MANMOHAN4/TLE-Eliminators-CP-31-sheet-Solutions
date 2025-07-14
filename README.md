@@ -1,13 +1,13 @@
-# TLE CP-31 Sheet Solutions Repository
+# TLE Eliminators CP-31 Sheet Solutions Repository
 
 ## Description
 
-This repository hosts my solutions/codes (in **Java**) to **TLE's CP-31 sheet**, curated by _Priyansh Aggarwal_.  
+This repository hosts my solutions/codes (in **Java**) to **TLE Eliminators CP-31 sheet**, curated by _Priyansh Aggarwal_.  
 The sheet contains a collection of **Codeforces problems**, thoughtfully organized by difficulty — ranging from ratings **800 to 1600**.
 
 Within this repository, you'll find well-structured solutions for each problem, categorized according to their respective rating levels.
 
-**Link to the Sheet:** [TLE CP-31 Sheet](https://www.tle-eliminators.com/cp-sheet)
+**Link to the Sheet:** [TLE Eliminators CP-31 Sheet](https://www.tle-eliminators.com/cp-sheet)
 
 **Problems Source:** [Codeforces](https://codeforces.com/)
 
