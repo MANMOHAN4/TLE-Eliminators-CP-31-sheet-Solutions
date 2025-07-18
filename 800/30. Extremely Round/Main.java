@@ -90,7 +90,7 @@ public class Main {
                 x += (leftmostDigit - 1); // along with (leftmostDigit - 1) extremely round
                 break;
                 
-                case 3: // Hundresds Place
+                case 3: // Hundreds Place
                 // if n <= 1000
                 x = (10 + 9); // there exists ((1 to 10) + (20, 30, 40, ... 100)) extremely round
                 x += (leftmostDigit - 1); // along with (leftmostDigit - 1) extremely round
