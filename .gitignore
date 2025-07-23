@@ -1,0 +1,13 @@
+# Java class files
+*.class
+
+# Package directories
+/bin/
+/out/
+/target/
+
+/# IDE and build tools
+*.log
+*.jar
+*.war
+*.ear
