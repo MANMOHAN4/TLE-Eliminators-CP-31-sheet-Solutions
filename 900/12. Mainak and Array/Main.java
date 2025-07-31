@@ -83,14 +83,17 @@ public class Main {
 
         int ans = array[n - 1] - array[0];
 
+        // Assuming first element as the minimum in the array
         for (int i = 1; i < n; i++) {
             ans = Math.max(ans, array[i] - array[0]);
         }
 
+        // Assuming last element as the maximum in the array
         for (int i = 0; i < n - 1; i++) {
             ans = Math.max(ans, array[n - 1] - array[i]);
         }
 
+        // Finding the difference b/w the consecutive pair
         for (int i = 0; i < n - 1; i++) {
             ans = Math.max(ans, array[i] - array[i + 1]);
         }
