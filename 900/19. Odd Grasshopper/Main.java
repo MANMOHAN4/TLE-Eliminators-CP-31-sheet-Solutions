@@ -81,7 +81,7 @@ public class Main {
         long x = in.nextLong();
         long n = in.nextLong();
 
-        // For every fourth jump, the grasshopper comes to initial position from where it started.
+        // For every fourth jump, the grasshopper comes to the initial position (i.e from where it started).
         // So, to find the coordinate of the point the grasshopper will be at after making n jumps, solve from the (n - (n % 4) + 1)th jump
         for (long d = (n - (n % 4) + 1); d <= n; d++) {
             if (x % 2 != 0) {
