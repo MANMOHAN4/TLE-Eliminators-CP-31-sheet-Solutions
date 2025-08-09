@@ -1,4 +1,4 @@
-// 19. AB Balance
+// 19. Odd Grasshopper
 
 import java.io.*;
 import java.util.*;
@@ -78,16 +78,20 @@ public class Main {
 
     // Solution
     static void solve(FastReader in, PrintWriter out) {
-        String s = in.nextLine();
-        int n = s.length();
+        long x = in.nextLong();
+        long n = in.nextLong();
 
-        if (s.charAt(0) == s.charAt(n - 1)) {
-            out.println(s);
-        } else if (s.charAt(0) == 'a') {
-            out.println('b' + s.substring(1, n));
-        } else {
-            out.println('a' + s.substring(1, n));
+        // For every fourth jump, the grasshopper comes to the initial position (i.e from where it started).
+        // So, to find the coordinate of the point the grasshopper will be at after making n jumps, solve from the (n - (n % 4) + 1)th jump
+        for (long d = (n - (n % 4) + 1); d <= n; d++) {
+            if (x % 2 != 0) {
+                x += d;
+            } else {
+                x -= d;
+            }
         }
+
+        out.println(x);
 
     }
 }
