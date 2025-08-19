@@ -107,7 +107,7 @@ public class Main {
                 k++;
             }
 
-            // If both cases satisfied, print the answer considering the array as " 1 - indexed ".
+            // If both cases are satisfied, print the answer considering the array as " 1 - indexed ".
             if (k < n) {
                 isThreeIndicesFound = true;
                 out.println("Yes");
